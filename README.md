@@ -9,9 +9,9 @@
 - 📦 Pipeline CI/CD com validação XML e empacotamento automático
 
 ## 📥 Instalação
-1. Baixe a versão mais recente em [Releases](https://github.com/SEU_USUARIO/libre-nord/releases)
+1. Baixe a versão mais recente em [Releases](https://github.com/gomesluiz/libre-nord/releases)
 2. Abra o LibreOffice → `Ferramentas > Gerenciador de Extensões > Adicionar...`
-3. Selecione `libre-nord-2.0.0.oxt` e reinicie o aplicativo
+3. Selecione `libre-nord-1.0.0.oxt` e reinicie o aplicativo
 4. `Ferramentas > Opções > Aparência` → Escolha `Nord Light`, `Nord Dark` ou `Nord High Contrast`
 
 ## 🛠 Desenvolvimento
