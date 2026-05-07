@@ -20,6 +20,7 @@
 - Python 3.8+
 - `make`, `zip`, `xmllint`
 
+
 ### Build Local
 ```bash
 git clone https://github.com/SEU_USUARIO/libre-nord.git
