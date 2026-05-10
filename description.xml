@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006">
+  <identifier value="org.librenord.theme"/>
+  <version value=".0.0"/>
+  <display-name>
+    <lang lang="en">Libre Nord</lang>
+    <lang lang="pt">Libre Nord</lang>
+  </display-name>
+  <platform value="all"/>
+  <dependencies>
+    <libreoffice-minimal-version value="25.2"/>
+  </dependencies>
+  <publisher>
+    <name>Libre Nord Project</name>
+  </publisher>
+  <icon>
+    <lang lang="en">
+      <img src="nord-preview.png" width="48" height="48"/>
+    </lang>
+  </icon>
+</description>
