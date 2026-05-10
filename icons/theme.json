@@ -1,0 +1,26 @@
+{
+    "name": "Libre Nord Icons",
+    "version": "1.0.0",
+    "author": "Libre Nord Project",
+    "license": "MIT",
+    "style": "flat",
+    "variants": [
+        "light",
+        "dark"
+    ],
+    "sizes": [
+        "16",
+        "22",
+        "24",
+        "32",
+        "48"
+    ],
+    "colorOverrides": {
+        "primary": "#88C0D0",
+        "secondary": "#81A1C1",
+        "accent": "#A3BE8C",
+        "error": "#BF616A",
+        "warning": "#EBCB8B",
+        "success": "#A3BE8C"
+    }
+}
