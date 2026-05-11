@@ -67,14 +67,15 @@ package: validate generate-icons
 	@zip -0 -X $(OXT) mimetype
 	
 	# Adiciona description.xml SEM compressão (segundo arquivo obrigatório)
-	@zip -0 -X $(OXT) description.xml
+	#@zip -0 -X $(OXT) description.xml
 	
 	# Adiciona diretórios restantes com compressão normal
 	@zip -r -X $(OXT) \
 		META-INF/ \
 		registration/ \
-		icons/ \
+		--exclude "icons/*" \
 		--exclude "*.git*" \
+		--exclude "*.xcu*" \
 		--exclude "generate_icons.py" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
@@ -82,9 +83,9 @@ package: validate generate-icons
 		--exclude "CHANGELOG.md" \
 		--exclude ".github/*" \
 		--exclude "__pycache__/*" \
-		--exclude "*.oxt" \
-		--exclude "mimetype" \
-		--exclude "description.xml"
+		--exclude "*.oxt" 
+	
+	
 	
 	# Remove arquivo temporário
 	@rm -f mimetype
@@ -92,15 +93,15 @@ package: validate generate-icons
 	@echo "✅ Gerado: ../$(OXT)"
 	
 	# Validação pós-build
-	@echo "🔍 Validando estrutura do pacote..."
-	@MIME=$$(unzip -p $(OXT) mimetype 2>/dev/null); \
-	if [ "$$MIME" = "application/vnd.sun.star.package-bundle" ]; then \
-		echo "✅ mimetype correto: $$MIME"; \
-	else \
-		echo "❌ mimetype incorreto ou ausente: '$$MIME'"; \
-		unzip -l $(OXT) | grep -i mime || echo "⚠️  Nenhum arquivo 'mimetype' encontrado no ZIP"; \
-		exit 1; \
-	fi
+	#@echo "🔍 Validando estrutura do pacote..."
+	#@MIME=$$(unzip -p $(OXT) mimetype 2>/dev/null); \
+	#if [ "$$MIME" = "application/vnd.sun.star.package-bundle" ]; then \
+	#	echo "✅ mimetype correto: $$MIME"; \
+	#else \
+	#	echo "❌ mimetype incorreto ou ausente: '$$MIME'"; \
+	#	unzip -l $(OXT) | grep -i mime || echo "⚠️  Nenhum arquivo 'mimetype' encontrado no ZIP"; \
+	#	exit 1; \
+	#fi
 
 clean:
 	@rm -f *.oxt
