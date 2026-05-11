@@ -24,3 +24,7 @@ venv/
 # Logs & temp
 *.log
 tmp/
+
+# Arquivos antigos consolidados
+registry/*-advanced.xcu
+registry/*-defaults.xcu

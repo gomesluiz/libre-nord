@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE manifest:manifest PUBLIC "-//OpenOffice.org//DTD Manifest 1.0//EN" "Manifest.dtd">
 <manifest:manifest xmlns:manifest="http://openoffice.org/2001/manifest">
+  <manifest:file-entry manifest:full-path="libre-nord/" manifest:media-type="application/vnd.sun.star.basic-library"/>
   <manifest:file-entry manifest:full-path="description.xml" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+<!--  
   <manifest:file-entry manifest:full-path="registry/libre-nord-colors.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
-  <manifest:file-entry manifest:full-path="registry/libre-nord-ui-defaults.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  <manifest:file-entry manifest:full-path="registry/libre-nord-ui-general.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  <manifest:file-entry manifest:full-path="registry/libre-nord-view.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
   <manifest:file-entry manifest:full-path="registry/libre-nord-icon-registry.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
-  <manifest:file-entry manifest:full-path="registry/libre-nord-advanced.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  <manifest:file-entry manifest:full-path="registry/libre-nord-high-contrast.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  <manifest:file-entry manifest:full-path="registry/libre-nord-options.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  <manifest:file-entry manifest:full-path="registry/libre-nord-setup.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
   <manifest:file-entry manifest:full-path="icons/theme.json" manifest:media-type="application/json"/>
+-->
 </manifest:manifest>
