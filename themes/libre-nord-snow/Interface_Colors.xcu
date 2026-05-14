@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="UI" oor:package="org.openoffice.Office">
+  <node oor:name="ColorScheme">
+    <node oor:name="ColorSchemes">
+      <node oor:name="Nord Snow" oor:op="fuse">
+        <node oor:name="AppBackground"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop><prop oor:name="Bitmap" oor:op="fuse"><value>;tiled</value></prop><prop oor:name="BackgroundType" oor:op="fuse"><value>false</value></prop></node>
+        <node oor:name="WindowColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
+        <node oor:name="FaceColor"><prop oor:name="Color" oor:op="fuse"><value>15067632</value></prop></node>
+        <node oor:name="MenuColor"><prop oor:name="Color" oor:op="fuse"><value>15067632</value></prop></node>
+        <node oor:name="MenuBarColor"><prop oor:name="Color" oor:op="fuse"><value>15067632</value></prop></node>
+        <node oor:name="ButtonColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="InactiveColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="MenuTextColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
+        <node oor:name="MenuBarTextColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
+        <node oor:name="ButtonTextColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
+        <node oor:name="WindowTextColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
+        <node oor:name="MenuHighlightColor"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
+        <node oor:name="MenuBarHighlightColor"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
+        <node oor:name="MenuHighlightTextColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
+        <node oor:name="MenuBarHighlightTextColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
+        <node oor:name="ActiveColor"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
+        <node oor:name="MenuBorderColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="ActiveBorderColor"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
+        <node oor:name="InactiveBorderColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="SeparatorColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+      </node>
+    </node>
+    <prop oor:name="CurrentColorScheme"><value>Nord Snow</value></prop>
+  </node>
+</oor:component-data>

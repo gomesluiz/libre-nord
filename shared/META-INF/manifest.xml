@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="http://openoffice.org/2001/manifest">
+  
+  <!-- User Interface Color Settings -->
+  <manifest:file-entry manifest:full-path="Interface_Colors.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  
+  <!-- Document and Spreadsheet Color Settings -->
+  <manifest:file-entry manifest:full-path="Document_Colors.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  
+  <!-- Syntax Highlighting Color Settings -->
+  <manifest:file-entry manifest:full-path="Syntax_Colors.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+  
+  <!-- Palette Path Registration -->
+  <manifest:file-entry manifest:full-path="Paths.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
+
+</manifest:manifest>

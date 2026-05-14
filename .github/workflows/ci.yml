@@ -1,46 +1,45 @@
-name: Libre Nord CI/CD
+name: Build LibreOffice Extensions
 
 on:
-    push:
-        branches: [ main, master, develop ]
-        tags: [ 'v*']
-    pull_request:
-        branches: [ main, master, develop ]
-
-concurrency:
-    group: ${{ github.workflow }}-${{ github.ref }}
-    cancel-in-progress: true
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
 
 jobs:
-    build:
+  build:
+    name: Package All OXT Themes
+    runs-on: ubuntu-latest
 
-        runs-on: ubuntu-latest
-        timeout-minutes: 15
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-            - name: Install deps
-              run: |
-                sudo apt-get update
-                sudo apt-get install -y --no-install-recommends zip libxml2-utils
+      - name: Install build dependencies (Make, Zip, and XMLLint)
+        run: sudo apt-get update && sudo apt-get install -y make zip libxml2-utils
 
-            - name: Build extension (.oxt)
-              run: make package
+      - name: Build the extensions via Makefile
+        run: make all
 
-            - name: Upload realease asset
-              uses: actions/upload-artifact@v4
-              with:
-                name: libre-nord-${{ github.sha }}
-                path: '*.oxt'
-                retention-days: 14
+      - name: Upload .oxt files as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: LibreOffice-Nord-Themes
+          path: dist/*.oxt
+          retention-days: 14
 
-            - name: Create release on github
-              if: github.ref_type == 'tag'
-              uses: softprops/action-gh-release@v2
-              with:
-                files: '*.oxt'
-                generate_release_notes: true
-                draft: false
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish Official Release (Tags Only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.oxt
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
