@@ -5,7 +5,7 @@
  xmlns:xlink="http://www.w3.org/1999/xlink">
 	<identifier value="org.broffice.librenord"/>
 	<icon>
-        	<default xlink:href="./nord-preview.png" />
+        <default xlink:href="assets/LibreNordIcon.png" />
     </icon>
 	<version value="1.0"/>
 	<registration>
@@ -17,6 +17,6 @@
 	      <name xlink:href="mailto:gomes.luiz@gmail.com">Luiz Gomes</name>
       </publisher>
        <display-name>
-            <name>libre-nord</name>
+            <name>Libre Nord</name>
        </display-name>
 </description>

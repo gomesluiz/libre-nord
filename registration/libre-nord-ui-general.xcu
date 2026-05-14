@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="General" oor:package="org.openoffice.Office.UI">
-  <prop oor:name="UseSystemTitleBar" oor:type="xs:boolean" oor:op="replace">false</prop>
-  <prop oor:name="UseVCLForMenus" oor:type="xs:boolean" oor:op="replace">true</prop>
-  <prop oor:name="AntiAliasing" oor:type="xs:boolean" oor:op="replace">true</prop>
-  <prop oor:name="FontSmoothing" oor:type="xs:string" oor:op="replace">grayscale</prop>
-  <prop oor:name="CursorTheme" oor:type="xs:string" oor:op="replace">Adwaita</prop>
-  <prop oor:name="DefaultIconTheme" oor:type="xs:string" oor:op="replace">colibre</prop>
-</oor:component-data>

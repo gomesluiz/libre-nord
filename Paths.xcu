@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Paths" oor:package="org.openoffice.Office">
+  <node oor:name="Paths">
+    <!-- Informa ao LibreOffice onde encontrar novas paletas de cores -->
+    <node oor:name="Palette">
+      <node oor:name="InternalPaths">
+        <!-- %origin% significa a raiz da sua extensão -->
+        <node oor:name="%origin%/paletas" oor:op="fuse"/>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

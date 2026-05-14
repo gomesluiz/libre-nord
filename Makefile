@@ -61,21 +61,24 @@ package: validate generate-icons
 	@rm -f $(OXT)
 	
 	# Cria arquivo mimetype NA RAIZ do projeto (temporário)
-	@printf "application/vnd.sun.star.package-bundle" > mimetype
+	# @printf "application/vnd.sun.star.package-bundle" > mimetype
 	
 	# Adiciona mimetype PRIMEIRO e SEM compressão (requisito ODF)
-	@zip -0 -X $(OXT) mimetype
+	# @zip -0 -X $(OXT) mimetype
 	
 	# Adiciona description.xml SEM compressão (segundo arquivo obrigatório)
-	#@zip -0 -X $(OXT) description.xml
+	# @zip -0 -X $(OXT) description.xml
 	
 	# Adiciona diretórios restantes com compressão normal
 	@zip -r -X $(OXT) \
+		description.xml \
+		*.xcu \
+		assets/ \
 		META-INF/ \
+		paletas/ \
+		pkg-description/ \
 		registration/ \
-		--exclude "icons/*" \
 		--exclude "*.git*" \
-		--exclude "*.xcu*" \
 		--exclude "generate_icons.py" \
 		--exclude "Makefile" \
 		--exclude "README.md" \

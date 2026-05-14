@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="View" oor:package="org.openoffice.Office.Common">
-  <prop oor:name="UseHiDPI" oor:type="xs:boolean" oor:op="replace">true</prop>
-  <prop oor:name="ToolbarBackground" oor:type="xs:string" oor:op="replace">#D8DEE9</prop>
-</oor:component-data>
