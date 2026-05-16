@@ -1,8 +1,8 @@
-# Nord Frost Theme
+# Nord Light Theme
 
 [⬅ Back to main repository](../../README.md)
 
-**Frost** presents an intermediate approach to dark themes. Its base is predominantly bluish and cold, exploring the fluid transition between the highlight palettes to create buttons, selections, and active borders that resemble a frozen environment.
+**Nord Light** is the bright variant designed for highly illuminated workspaces. It utilizes the clean Snow Storm tones for backgrounds, ensuring maximum readability by applying the dark Polar Night tones to all text and UI elements.
 
 ## 📸 Screenshot
 

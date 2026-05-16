@@ -2,15 +2,10 @@ name: Build LibreOffice Extensions
 
 on:
   push:
-    branches:
-      - main
-      - master
-    tags:
-      - 'v*'
+    branches: [ main, master ]
+    tags: [ 'v*' ]
   pull_request:
-    branches:
-      - main
-      - master
+    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
@@ -22,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install build dependencies (Make, Zip, and XMLLint)
+      - name: Install build dependencies
         run: sudo apt-get update && sudo apt-get install -y make zip libxml2-utils
 
       - name: Build the extensions via Makefile

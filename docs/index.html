@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibreOffice Nord Themes</title>
+    <meta name="description" content="A collection of elegant, eye-comfortable Nord themes for LibreOffice.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        nord: {
+                            0: '#2e3440', 1: '#3b4252', 2: '#434c5e', 3: '#4c566a',
+                            4: '#d8dee9', 5: '#e5e9f0', 6: '#eceff4',
+                            7: '#8fbcbb', 8: '#88c0d0', 9: '#81a1c1', 10: '#5e81ac',
+                            11: '#bf616a', 12: '#d08770', 13: '#ebcb8b', 14: '#a3be8c', 15: '#b48ead'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-nord-0 text-nord-4 font-sans antialiased selection:bg-nord-8 selection:text-nord-0">
+
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center border-b border-nord-2">
+        <div class="text-xl font-bold text-nord-8 tracking-wide">
+            LibreOffice<span class="text-nord-4">Nord</span>
+        </div>
+        <div>
+            <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY" target="_blank" class="text-nord-4 hover:text-nord-8 transition-colors duration-300">GitHub Repository</a>
+        </div>
+    </nav>
+
+    <header class="container mx-auto px-6 py-20 text-center md:py-32">
+        <h1 class="text-5xl md:text-6xl font-extrabold text-nord-6 mb-6">
+            Elegance & Focus for <span class="text-nord-8">LibreOffice</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-nord-4 mb-10 max-w-3xl mx-auto font-light">
+            A free, open-source suite of modular extensions bringing the harmony and visual comfort of the Nord color palette to your workspace.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases/latest" target="_blank" class="bg-nord-8 hover:bg-nord-9 text-nord-0 font-bold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg">
+                Download Latest Release
+            </a>
+            <a href="#themes" class="bg-nord-2 hover:bg-nord-3 text-nord-6 font-semibold py-3 px-8 rounded-lg transition-colors duration-300">
+                Explore Themes
+            </a>
+        </div>
+    </header>
+
+    <section id="themes" class="bg-nord-1 py-20 border-y border-nord-2">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-nord-6 mb-16">Two Distinct Atmospheres</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                <div class="bg-nord-0 p-8 rounded-xl border border-nord-2 hover:border-nord-8 transition-colors duration-300">
+                    <div class="w-12 h-12 bg-nord-0 border border-nord-3 rounded-full mb-6 shadow-inner"></div>
+                    <h3 class="text-2xl font-bold text-nord-6 mb-3">Nord Dark</h3>
+                    <p class="text-nord-4 mb-4">The classic dark theme, focused on deep, restful tones. Ideal for low-light environments, featuring high-contrast text and vibrant Aurora accents.</p>
+                </div>
+
+                <div class="bg-nord-6 p-8 rounded-xl border border-nord-4 hover:border-nord-8 transition-colors duration-300">
+                    <div class="w-12 h-12 bg-nord-6 border border-nord-4 rounded-full mb-6 shadow-sm"></div>
+                    <h3 class="text-2xl font-bold text-nord-0 mb-3">Nord Light</h3>
+                    <p class="text-nord-1 mb-4">The bright variant. Designed for highly illuminated workspaces, it maintains maximum visual sharpness using deep blues and high-contrast typography.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center text-nord-6 mb-12">How to Install</h2>
+        <div class="max-w-2xl mx-auto bg-nord-1 p-8 rounded-xl border border-nord-2">
+            <ol class="list-decimal list-inside space-y-4 text-nord-4 text-lg">
+                <li>Download the <code class="bg-nord-2 px-2 py-1 rounded text-nord-8">.oxt</code> file of your preferred theme.</li>
+                <li>Open LibreOffice and navigate to <strong>Tools > Extension Manager...</strong></li>
+                <li>Click <strong>Add</strong>, select the downloaded file, and confirm.</li>
+                <li><strong>Restart LibreOffice.</strong></li>
+                <li>Go to <strong>Tools > Options > LibreOffice > Application Colors</strong>.</li>
+                <li>Select the theme in the <strong>Scheme</strong> dropdown and apply.</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer class="bg-nord-1 py-12 border-t border-nord-2 mt-10">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-xl font-bold text-nord-6 mb-6">Support this Project</h3>
+            <p class="text-nord-4 mb-8 max-w-xl mx-auto">
+                This project is maintained voluntarily. If these themes have improved your workflow and reduced your eye strain, consider supporting the continued development.
+            </p>
+            <a href="https://paypal.me/YOUR_PAYPAL_USERNAME" target="_blank" class="inline-block hover:opacity-90 transition-opacity duration-300">
+                <img src="../media/LibreNordIcon.png" alt="Support this Project via PayPal" class="h-24 mx-auto">
+            </a>
+            <div class="mt-12 text-nord-3 text-sm">
+                &copy; 2026 LibreOffice Nord Theme Collection. Licensed under the MIT License.<br>
+                Colors inspired by the <a href="https://www.nordtheme.com/" class="text-nord-8 hover:underline">Nord Theme</a>.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

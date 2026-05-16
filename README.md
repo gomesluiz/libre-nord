@@ -6,26 +6,20 @@
 
 A free and open-source suite of modular extensions that brings the elegance, harmony, and visual comfort of the [Nord](https://www.nordtheme.com/) color palette to LibreOffice.
 
-This repository consolidates four variants of the theme, allowing users to choose the atmosphere that best suits their workspace. Beyond restyling the toolbars, these extensions modify the document background, spreadsheet grids, syntax highlighting, and make the Nord palette natively available in the system.
+This repository provides two carefully crafted variants of the theme, integrating the four original Nord palettes (Polar Night, Snow Storm, Frost, and Aurora) to guarantee maximum visual clarity and minimal eye strain.
 
 ## 🎨 Explore the Themes
 
-Each extension has a unique visual identity. Select one of the themes below to view screenshots and get specific details about the palette used:
-
-* 🌌 **[Nord Polar Night](themes/libre-nord-polar/README.md):** The classic dark theme, focused on deep, restful tones.
-* ❄️ **[Nord Snow Storm](themes/libre-nord-snow/README.md):** The light, clean, and bright theme, designed for high-light environments.
-* 🧊 **[Nord Frost](themes/libre-nord-frost/README.md):** An intermediate dark theme characterized by a strong presence of cold and bluish tones.
-* 🌠 **[Nord Aurora](themes/libre-nord-aurora/README.md):** A vibrant dark theme that uses the colors of the Northern Lights for highlights and markings.
+* 🌌 **[Nord Dark](themes/libre-nord-dark/README.md):** The classic dark theme, focused on deep, restful tones.
+* ❄️ **[Nord Light](themes/libre-nord-light/README.md):** The bright, clean theme, designed for highly illuminated workspaces with high contrast text.
 
 ## ✨ Common Features
 
 * **Full Coverage:** Styling for the user interface (UI), document editing area (Writer, Calc, etc.), and syntax highlighting (SQL, BASIC, HTML).
 * **Integrated Palette:** Inclusion of the "Nord" color palette in the fill and font options (`.soc`).
-* **Shared Architecture:** Clean and segmented code, making simultaneous maintenance of all variants easy.
+* **Shared Architecture:** Clean and segmented code, making simultaneous maintenance easy.
 
 ## 🚀 How to Install
-
-The extensions are available **completely free of charge** to the community.
 
 1. Download the `.oxt` file for your desired theme from the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases/latest) page.
 2. Open LibreOffice and go to **Tools** > **Extension Manager...** (or press `Ctrl + Alt + E`).
@@ -40,11 +34,8 @@ The project uses a `Makefile` to validate the XML code and package all themes si
 **Prerequisites:** Unix-based operating system (Linux/macOS) or WSL; `make`, `zip`, and `xmllint` utilities installed.
 
 ```bash
-# 1. Clone the repository
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
 cd YOUR_REPOSITORY
-
-# 2. Validate the XML and package all extensions
 make all
 ```
 
