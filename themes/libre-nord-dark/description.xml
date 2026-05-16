@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" 
+             xmlns:d="http://openoffice.org/extensions/description/2006" 
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+    <identifier value="org.gomesluiz.libreoffice.nord.dark" />
+    <version value="1.0.0" />
+    <publisher>
+        <name xlink:href="https://github.com/gomesluiz/libre-nord" lang="en">Luiz Gomes</name>
+    </publisher>
+    <display-name>
+        <name lang="en">Nord Dark Theme</name>
+        <name lang="pt-BR">Tema Nord Escuro</name>
+    </display-name>
+    <icon>
+        <default xlink:href="icon.png" />
+    </icon>
+    <registration>
+        <simple-license accept-by="admin" default-license-id="id_license" suppress-on-update="true">
+            <license-text xlink:href="license.txt" lang="en" license-id="id_license" />
+        </simple-license>
+    </registration>
+    <extension-description>
+        <src xlink:href="pkg-description.en" lang="en" />
+    </extension-description>
+</description>
