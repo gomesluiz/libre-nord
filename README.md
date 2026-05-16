@@ -1,8 +1,8 @@
 # LibreOffice Nord Theme Collection
 
-[![Latest Release](https://img.shields.io/github/v/release/YOUR_USERNAME/YOUR_REPOSITORY?color=blue&label=version)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases/latest)
-[![Build Status](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPOSITORY?color=green)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/gomesluiz/libre-nord?color=blue&label=version)](https://github.com/gomesluiz/libre-nord/releases/latest)
+[![Build Status](https://github.com/gomesluiz/libre-nord/actions/workflows/ci.yml/badge.svg)](https://github.com/gomesluiz/libre-nord/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/gomesluiz/libre-nord?color=green)](LICENSE)
 
 A free and open-source suite of modular extensions that brings the elegance, harmony, and visual comfort of the [Nord](https://www.nordtheme.com/) color palette to LibreOffice.
 
@@ -21,7 +21,7 @@ This repository provides two carefully crafted variants of the theme, integratin
 
 ## 🚀 How to Install
 
-1. Download the `.oxt` file for your desired theme from the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases/latest) page.
+1. Download the `.oxt` file for your desired theme from the [Releases](https://github.com/gomesluiz/libre-nord/releases/latest) page.
 2. Open LibreOffice and go to **Tools** > **Extension Manager...** (or press `Ctrl + Alt + E`).
 3. Click **Add**, locate the downloaded file, and confirm the installation.
 4. **Restart LibreOffice.**
@@ -34,7 +34,7 @@ The project uses a `Makefile` to validate the XML code and package all themes si
 **Prerequisites:** Unix-based operating system (Linux/macOS) or WSL; `make`, `zip`, and `xmllint` utilities installed.
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
+git clone [https://github.com/gomesluiz/libre-nord.git](https://github.com/gomesluiz/libre-nord.git)
 cd YOUR_REPOSITORY
 make all
 ```
@@ -48,8 +48,9 @@ Contributions to improve the interface are welcome. Feel free to open an *Issue*
 ## ☕ Support this Project
 
 The development and maintenance of this extension suite are done voluntarily. If the comfort provided by these themes has reduced your eye strain and you want to support the project's continuity, consider contributing.
-
+<!--
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.paypal.com/donate/?business=FUYCFNEHLN8FS&no_recurring=0&currency_code=BRL)
+-->
 
 ## 📄 License
 
