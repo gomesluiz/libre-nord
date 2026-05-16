@@ -1,6 +1,6 @@
 # LibreOffice Nord Theme Collection
 
-[![Latest Release](https://img.shields.io/github/v/release/gomesluiz/libre-nord?color=blue&label=version)](https://github.com/gomesluiz/libre-nord/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/gomesluiz/libre-nord?color=88c0d0&label=release&logo=github&style=flat-square)](https://github.com/gomesluiz/libre-nord/releases/latest)
 [![Build Status](https://github.com/gomesluiz/libre-nord/actions/workflows/ci.yml/badge.svg)](https://github.com/gomesluiz/libre-nord/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/gomesluiz/libre-nord?color=green)](LICENSE)
 
