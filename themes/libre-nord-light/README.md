@@ -6,8 +6,8 @@
 
 ## 📸 Screenshot
 
-*(Insert an image demonstrating LibreOffice with the Frost theme here)*
-![Frost Interface](image-link.png)
+### Writer
+![libre-nord-light-writer-screen-1](assets/libre-nord-light-writer-screen-1.png)
 
 ## Theme Specifics
 

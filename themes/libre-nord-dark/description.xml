@@ -12,7 +12,7 @@
         <name lang="pt-BR">Tema Nord Escuro</name>
     </display-name>
     <icon>
-        <default xlink:href="icon.png" />
+        <default xlink:href="assets/libre-nord-dark-icon.png" />
     </icon>
     <registration>
         <simple-license accept-by="admin" default-license-id="id_license" suppress-on-update="true">

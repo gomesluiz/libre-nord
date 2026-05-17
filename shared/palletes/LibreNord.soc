@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <office:color-table xmlns:office="http://openoffice.org/2000/office" xmlns:style="http://openoffice.org/2000/style" xmlns:text="http://openoffice.org/2000/text" xmlns:table="http://openoffice.org/2000/table" xmlns:draw="http://openoffice.org/2000/drawing" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="http://openoffice.org/2000/meta" xmlns:number="http://openoffice.org/2000/datastyle" xmlns:svg="http://www.w3.org/2000/svg" xmlns:chart="http://openoffice.org/2000/chart" xmlns:dr3d="http://openoffice.org/2000/dr3d" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="http://openoffice.org/2000/form" xmlns:script="http://openoffice.org/2000/script">
+  
   <!-- Polar Night -->
+  <!-- Valor inteiro: 3028032 -->
   <draw:color draw:name="Nord 0 (Dark)" draw:color="#2e3440"/>
+  <!-- Valor inteiro: 3883602 -->
   <draw:color draw:name="Nord 1" draw:color="#3b4252"/>
+  <!-- Valor inteiro: 4410462 -->
   <draw:color draw:name="Nord 2" draw:color="#434c5e"/>
+  <!-- Valor inteiro: 4987754 -->
   <draw:color draw:name="Nord 3" draw:color="#4c566a"/>
+  
   <!-- Snow Storm -->
+  <!-- Valor inteiro: 14212841 -->
   <draw:color draw:name="Nord 4 (Light)" draw:color="#d8dee9"/>
+  <!-- Valor inteiro: 15067632 -->
   <draw:color draw:name="Nord 5" draw:color="#e5e9f0"/>
+  <!-- Valor inteiro: 15527924 -->
   <draw:color draw:name="Nord 6" draw:color="#eceff4"/>
+  
   <!-- Frost -->
+  <!-- Valor inteiro: 9419963 -->
   <draw:color draw:name="Nord 7 (Teal)" draw:color="#8fbcbb"/>
+  <!-- Valor inteiro: 8962256 -->
   <draw:color draw:name="Nord 8 (Cyan)" draw:color="#88c0d0"/>
+  <!-- Valor inteiro: 8495553 -->
   <draw:color draw:name="Nord 9 (Light Blue)" draw:color="#81a1c1"/>
+  <!-- Valor inteiro: 6193580 -->
   <draw:color draw:name="Nord 10 (Dark Blue)" draw:color="#5e81ac"/>
+  
   <!-- Aurora -->
+  <!-- Valor inteiro: 12542314 -->
   <draw:color draw:name="Nord 11 (Red)" draw:color="#bf616a"/>
+  <!-- Valor inteiro: 13666160 -->
   <draw:color draw:name="Nord 12 (Orange)" draw:color="#d08770"/>
+  <!-- Valor inteiro: 15453067 -->
   <draw:color draw:name="Nord 13 (Yellow)" draw:color="#ebcb8b"/>
+  <!-- Valor inteiro: 10731148 -->
   <draw:color draw:name="Nord 14 (Green)" draw:color="#a3be8c"/>
+  <!-- Valor inteiro: 11832961 -->
   <draw:color draw:name="Nord 15 (Purple)" draw:color="#b48ead"/>
+  
 </office:color-table>
