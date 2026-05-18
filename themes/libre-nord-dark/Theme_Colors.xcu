@@ -5,8 +5,8 @@
       <node oor:name="LibreNordDark" oor:op="fuse">
         <node oor:name="AppBackground"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
         <node oor:name="BaseColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
-        <node oor:name="DocColor"><prop oor:name="Color" oor:op="fuse"><value>3883602</value></prop></node>
-        <node oor:name="FontColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="DocColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="FontColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
         <node oor:name="DocBoundaries"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="FieldColor"><prop oor:name="Color" oor:op="fuse"><value>4410462</value></prop></node>
 
