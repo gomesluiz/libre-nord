@@ -10,7 +10,7 @@
         <node oor:name="DocBoundaries"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="ShadowColor"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="Shadow"><prop oor:name="Color" oor:op="fuse"><value xsi:nil="true" /></prop><prop oor:name="IsVisible" oor:op="fuse"><value>true</value></prop></node>
-        <node oor:name="FieldColor"><prop oor:name="Color" oor:op="fuse"><value>15067632</value></prop></node>
+        <node oor:name="FieldColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
 
         <node oor:name="WindowColor"><prop oor:name="Color" oor:op="fuse"><value>15067632</value></prop></node>
         <node oor:name="FaceColor"><prop oor:name="Color" oor:op="fuse"><value>15067632</value></prop></node>
