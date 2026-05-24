@@ -1,4 +1,4 @@
-# Nord Theme Extensions for LibreOffice
+![Promotional banner for Nord Theme Extensions for LibreOffice showing LibreOffice themed interface previews on a cool blue Nord color background, with the text Nord Theme Extensions for LibreOffice, creating a calm modern and focused mood](media/hero-banner.png)
 
 > Transform LibreOffice into a modern, elegant, and visually comfortable workspace.
 
