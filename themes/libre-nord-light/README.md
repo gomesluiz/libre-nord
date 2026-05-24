@@ -9,8 +9,6 @@
 ### Writer
 ![libre-nord-light-writer-screen-1](assets/libre-nord-light-writer-screen-1.png)
 
-## Theme Specifics
+###💡 Pro Tip: Recommended Icon Set
 
-* **Main Background:** Nord 1 (`#3b4252`)
-* **Active Elements:** Nord 8 (`#88c0d0`) and Nord 9 (`#81a1c1`)
-* **Toolbars and Menus:** Nord 2 (`#434c5e`)
+For the absolute best results and a fully cohesive interface, we highly recommend pairing these extensions with the Breeze icon set native to LibreOffice. You can easily change your icon theme by navigating to Tools > Options > Appearence > Icons and adjusting the "Icon style" dropdown.

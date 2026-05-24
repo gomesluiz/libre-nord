@@ -1,4 +1,4 @@
-name: Build LibreOffice Extensions
+name: Build Extensions
 
 on:
   push:

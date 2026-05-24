@@ -9,8 +9,6 @@
 ### Writer
 ![libre-nord-light-writer-screen-1](assets/libre-nord-dark-writer-screen-1.png)
 
-## Theme Specifics
+###💡 Pro Tip: Recommended Icon Set
 
-* **Main Background:** Nord 0 (`#2e3440`)
-* **Primary Selections:** Nord 15 (Purple - `#b48ead`)
-* **System Markings:** Nord 14 (Green - `#a3be8c`)
+For the absolute best results and a fully cohesive interface, we highly recommend pairing these extensions with the Breeze Dark icon set native to LibreOffice. You can easily change your icon theme by navigating to Tools > Options > Appearence > Icons and adjusting the "Icon style" dropdown.
