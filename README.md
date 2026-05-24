@@ -1,10 +1,13 @@
-# LibreOffice Nord Theme Collection
+# Nord Theme Extensions for LibreOffice
+
+> Transform LibreOffice into a modern, elegant, and visually comfortable workspace.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/gomesluiz/libre-nord?color=88c0d0&label=release&logo=github&style=flat-square)](https://github.com/gomesluiz/libre-nord/releases/latest)
 [![Build Status](https://github.com/gomesluiz/libre-nord/actions/workflows/ci.yml/badge.svg)](https://github.com/gomesluiz/libre-nord/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/gomesluiz/libre-nord?color=green)](LICENSE)
+[![License](https://img.shields.io/github/license/gomesluiz/libre-nord?color=green)](LICENSE) ![GitHub stars](https://img.shields.io/github/stars/gomesluiz/libre-nord) ![GitHub downloads](https://img.shields.io/github/downloads/gomesluiz/libre-nord/total)
 
-A free and open-source suite of modular extensions that brings the elegance, harmony, and visual comfort of the [Nord](https://www.nordtheme.com/) color palette to LibreOffice.
+
+A free and open-source suite of modular extensions that brings the elegance, harmony, and visual comfort of the [Nord](https://www.nordtheme.com/) color palette to LibreOffice, delivering a modern Nord-inspired experience focused on aesthetics, readability, reduced visual fatigue, and a cleaner, distraction-free interface for long productivity sessions.
 
 This repository provides two carefully crafted variants of the theme, integrating the four original Nord palettes (Polar Night, Snow Storm, Frost, and Aurora) to guarantee maximum visual clarity and minimal eye strain.
 
@@ -45,10 +48,11 @@ The final `.oxt` files will be automatically generated inside the `dist/` direct
 
 Contributions to improve the interface are welcome. Feel free to open an *Issue* reporting visual anomalies or to submit a *Pull Request* with fixes. Please make sure to run `make validate` before submitting changes.
 
+<!--
 ## ☕ Support this Project
 
 The development and maintenance of this extension suite are done voluntarily. If the comfort provided by these themes has reduced your eye strain and you want to support the project's continuity, consider contributing.
-<!--
+
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.paypal.com/donate/?business=FUYCFNEHLN8FS&no_recurring=0&currency_code=BRL)
 -->
 
