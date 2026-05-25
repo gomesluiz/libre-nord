@@ -68,6 +68,24 @@ make release
 
 If there is no tag on the current commit, `make release` fails with an error message.
 
+### Semi-Automatic Changelog Flow
+
+Use the helper target below to generate a new section in `CHANGELOG.md` from commit messages since the latest tag.
+
+```bash
+make changelog NEXT_VERSION=1.0.5
+```
+
+Recommended release sequence:
+
+1. Run `make changelog NEXT_VERSION=...`.
+2. Review and adjust `CHANGELOG.md` (if needed).
+3. Commit the changelog update.
+4. Create and push the tag (`vX.Y.Z`).
+5. Run `make release` (or let CI run on tag push).
+
+Tip: use Conventional Commits (`feat:`, `fix:`, `chore:`) for better automatic grouping.
+
 ## 🤝 Contributing
 
 Contributions to improve the interface are welcome. Feel free to open an *Issue* reporting visual anomalies or to submit a *Pull Request* with fixes. Please make sure to run `make validate` before submitting changes.

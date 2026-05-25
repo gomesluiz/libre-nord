@@ -12,7 +12,7 @@ DEFAULT_VERSION ?= 0.0.0-dev
 STRICT_VERSION ?= 0
 VERSION := $(if $(VERSION_FROM_TAG),$(VERSION_FROM_TAG),$(DEFAULT_VERSION))
 
-.PHONY: all clean validate package release check-version $(THEMES)
+.PHONY: all clean validate package release changelog check-version $(THEMES)
 
 # The default target runs clean, validate, and packages all themes
 all: clean validate package
@@ -20,6 +20,14 @@ all: clean validate package
 # Release build requires a tag on HEAD
 release: STRICT_VERSION=1
 release: clean validate package
+
+changelog:
+	@if [ -z "$(NEXT_VERSION)" ]; then \
+		echo "error: NEXT_VERSION is required."; \
+		echo "usage: make changelog NEXT_VERSION=1.0.5"; \
+		exit 1; \
+	fi
+	@./scripts/update_changelog.sh "$(NEXT_VERSION)" CHANGELOG.md
 
 clean:
 	@echo "[INFO] Cleaning old builds and distributions"
