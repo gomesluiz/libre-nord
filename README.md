@@ -44,6 +44,30 @@ make all
 
 The final `.oxt` files will be automatically generated inside the `dist/` directory.
 
+### Versioning During Build
+
+Package version is resolved from a Git tag pointing at the current commit (for example, `v1.0.5` becomes `1.0.5`).
+
+Development build (fallback version when HEAD has no tag):
+
+```bash
+make package
+```
+
+Override fallback version explicitly:
+
+```bash
+make package DEFAULT_VERSION=1.0.5-rc1
+```
+
+Release build (strict mode, requires a tag on HEAD):
+
+```bash
+make release
+```
+
+If there is no tag on the current commit, `make release` fails with an error message.
+
 ## 🤝 Contributing
 
 Contributions to improve the interface are welcome. Feel free to open an *Issue* reporting visual anomalies or to submit a *Pull Request* with fixes. Please make sure to run `make validate` before submitting changes.

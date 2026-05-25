@@ -5,10 +5,21 @@ THEMES = libre-nord-dark libre-nord-light
 BUILD_DIR = build
 DIST_DIR = dist
 
-.PHONY: all clean validate package $(THEMES)
+# Version resolution from Git tag (strip optional leading 'v')
+RAW_VERSION := $(shell git tag --points-at HEAD | head -n1)
+VERSION_FROM_TAG := $(patsubst v%,%,$(RAW_VERSION))
+DEFAULT_VERSION ?= 0.0.0-dev
+STRICT_VERSION ?= 0
+VERSION := $(if $(VERSION_FROM_TAG),$(VERSION_FROM_TAG),$(DEFAULT_VERSION))
+
+.PHONY: all clean validate package release check-version $(THEMES)
 
 # The default target runs clean, validate, and packages all themes
 all: clean validate package
+
+# Release build requires a tag on HEAD
+release: STRICT_VERSION=1
+release: clean validate package
 
 clean:
 	@echo "[INFO] Cleaning old builds and distributions"
@@ -22,12 +33,29 @@ validate:
 
 package: $(THEMES)
 
+check-version:
+	@if [ -z "$(RAW_VERSION)" ] && [ "$(STRICT_VERSION)" = "1" ]; then \
+		echo "error: no git tag found on current commit (HEAD)."; \
+		echo "hint: create a tag (e.g. v1.0.5) before running 'make release'."; \
+		exit 1; \
+	fi
+	@if [ -z "$(VERSION)" ]; then \
+		echo "error: computed VERSION is empty (RAW_VERSION='$(RAW_VERSION)', DEFAULT_VERSION='$(DEFAULT_VERSION)')."; \
+		exit 1; \
+	fi
+	@if [ -z "$(RAW_VERSION)" ]; then \
+		echo "[INFO] No tag on HEAD, using fallback version $(VERSION)"; \
+	else \
+		echo "[INFO] Packaging version $(VERSION) from tag $(RAW_VERSION)"; \
+	fi
+
 # Dynamic rule to build each theme independently
-$(THEMES):
+$(THEMES): check-version
 	@echo "[INFO] Building extension: $@"
 	@mkdir -p $(BUILD_DIR)/$@
 	@mkdir -p $(DIST_DIR)
 	@cp -r shared/* $(BUILD_DIR)/$@/
 	@cp -r themes/$@/* $(BUILD_DIR)/$@/
+	@sed -E -i 's|(<version value=")[^"]+(" */>)|\1$(VERSION)\2|' $(BUILD_DIR)/$@/description.xml
 	@cd $(BUILD_DIR)/$@ && zip -qr ../../$(DIST_DIR)/$@.oxt .
 	@echo "[INFO] Generated $@.oxt in $(DIST_DIR)/"
