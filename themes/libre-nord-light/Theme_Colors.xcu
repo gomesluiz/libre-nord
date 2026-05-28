@@ -2,7 +2,7 @@
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="UI" oor:package="org.openoffice.Office">
   <node oor:name="ColorScheme">
     <node oor:name="ColorSchemes">
-      <node oor:name="LibreNordLight" oor:op="fuse">
+      <node oor:name="Libre Nord Light" oor:op="fuse">
         <node oor:name="AppBackground"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
         <node oor:name="BaseColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
         <node oor:name="DocColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
@@ -55,5 +55,5 @@
       </node>
     </node>
   </node>
-  <prop oor:name="CurrentColorScheme"><value>LibreNordLight</value></prop>
+  <prop oor:name="CurrentColorScheme"><value>Libre Nord Light</value></prop>
 </oor:component-data>

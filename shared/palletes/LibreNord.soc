@@ -8,7 +8,7 @@
   <draw:color draw:name="Nord 1" draw:color="#3b4252"/>
   <!-- Valor inteiro: 4410462 -->
   <draw:color draw:name="Nord 2" draw:color="#434c5e"/>
-  <!-- Valor inteiro: 4987754 -->
+  <!-- Valor inteiro: 5002858 -->
   <draw:color draw:name="Nord 3" draw:color="#4c566a"/>
   
   <!-- Snow Storm -->
@@ -38,7 +38,7 @@
   <draw:color draw:name="Nord 13 (Yellow)" draw:color="#ebcb8b"/>
   <!-- Valor inteiro: 10731148 -->
   <draw:color draw:name="Nord 14 (Green)" draw:color="#a3be8c"/>
-  <!-- Valor inteiro: 11832961 -->
+  <!-- Valor inteiro: 11833005 -->
   <draw:color draw:name="Nord 15 (Purple)" draw:color="#b48ead"/>
   
 </office:color-table>
