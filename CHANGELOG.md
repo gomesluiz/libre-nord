@@ -1,6 +1,13 @@
 # Changelog
 Todas as mudanças no produto serão documentadas neste arquivo.
 
+## [1.0.4] - 2026-05-28
+### Adicionado
+- add semi-automatic changelog generation workflow
+
+### Corrigido
+- correct color values and naming in theme color files for consistency
+
 ## [1.0.0] - 2026-04-30
 ### Adicionado
 - Suporte oficial ao LibreOffice 25.2+
