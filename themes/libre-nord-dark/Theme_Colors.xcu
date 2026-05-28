@@ -47,7 +47,7 @@
         <node oor:name="WriterFieldShadings"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop><prop oor:name="IsVisible" oor:op="fuse"><value>true</value></prop></node>
         <node oor:name="CalcGrid"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
         <node oor:name="ShadowColor"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
-        <node oor:name="Shadow"><prop oor:name="Color" oor:op="fuse"><value xsi:nil="true" /></prop><prop oor:name="IsVisible" oor:op="fuse"><value>false</value></prop></node>
+        <node oor:name="Shadow"><prop oor:name="Color" oor:op="fuse"><value xsi:nil="false" /></prop><prop oor:name="IsVisible" oor:op="fuse"><value>false</value></prop></node>
       </node>
     </node>
     <prop oor:name="CurrentColorScheme"><value>Libre Nord Dark</value></prop>
