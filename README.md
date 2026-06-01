@@ -13,8 +13,8 @@ This repository provides two carefully crafted variants of the theme, integratin
 
 ## 🎨 Explore the Themes
 
-* 🌌 **[Nord Dark](themes/libre-nord-dark/README.md):** The classic dark theme, focused on deep, restful tones.
-* ❄️ **[Nord Light](themes/libre-nord-light/README.md):** The bright, clean theme, designed for highly illuminated workspaces with high contrast text.
+* 🌌 **[Nord Dark](./docs/LIBRENORDDARK.md):** The classic dark theme, focused on deep, restful tones.
+* ❄️ **[Nord Light](./docs/LIBRENORDLIGHT.md):** The bright, clean theme, designed for highly illuminated workspaces with high contrast text.
 
 ## ✨ Common Features
 
