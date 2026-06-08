@@ -14,18 +14,18 @@
         <node oor:name="FaceColor"><prop oor:name="Color" oor:op="fuse"><value>3883602</value></prop></node>
         <node oor:name="MenuColor"><prop oor:name="Color" oor:op="fuse"><value>3883602</value></prop></node>
         <node oor:name="MenuBarColor"><prop oor:name="Color" oor:op="fuse"><value>3883602</value></prop></node>
-        <node oor:name="ButtonColor"><prop oor:name="Color" oor:op="fuse"><value>4410462</value></prop></node>
+        <node oor:name="ButtonColor"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         
         <node oor:name="MenuTextColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
         <node oor:name="MenuBarTextColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
         <node oor:name="ButtonTextColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
         <node oor:name="WindowTextColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
         
-        <node oor:name="MenuHighlightColor"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
-        <node oor:name="MenuBarHighlightColor"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
-        <node oor:name="ActiveColor"><prop oor:name="Color" oor:op="fuse"><value>6193580</value></prop></node>
-        <node oor:name="ActiveBorderColor"><prop oor:name="Color" oor:op="fuse"><value>6193580</value></prop></node>
-        <node oor:name="AccentColor"><prop oor:name="Color" oor:op="fuse"><value>6193580</value></prop></node>
+        <node oor:name="MenuHighlightColor"><prop oor:name="Color" oor:op="fuse"><value>8962256</value></prop></node>
+        <node oor:name="MenuBarHighlightColor"><prop oor:name="Color" oor:op="fuse"><value>8962256</value></prop></node>
+        <node oor:name="ActiveColor"><prop oor:name="Color" oor:op="fuse"><value>8962256</value></prop></node>
+        <node oor:name="ActiveBorderColor"><prop oor:name="Color" oor:op="fuse"><value>8962256</value></prop></node>
+        <node oor:name="AccentColor"><prop oor:name="Color" oor:op="fuse"><value>8962256</value></prop></node>
         
         <node oor:name="MenuHighlightTextColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
         <node oor:name="MenuBarHighlightTextColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
@@ -38,14 +38,14 @@
         <node oor:name="BASICError"><prop oor:name="Color" oor:op="fuse"><value>12542314</value></prop></node>
         <node oor:name="BASICIdentifier"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
         <node oor:name="BASICKeyword"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
-        <node oor:name="BASICNumber"><prop oor:name="Color" oor:op="fuse"><value>11832941</value></prop></node>
+        <node oor:name="BASICNumber"><prop oor:name="Color" oor:op="fuse"><value>11833005</value></prop></node>
         <node oor:name="BASICOperator"><prop oor:name="Color" oor:op="fuse"><value>8962256</value></prop></node>
         <node oor:name="BASICString"><prop oor:name="Color" oor:op="fuse"><value>10731148</value></prop></node>
         <node oor:name="BASICComment"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
 
         <node oor:name="WriterIdxShadings"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop><prop oor:name="IsVisible" oor:op="fuse"><value>true</value></prop></node>
         <node oor:name="WriterFieldShadings"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop><prop oor:name="IsVisible" oor:op="fuse"><value>true</value></prop></node>
-        <node oor:name="CalcGrid"><prop oor:name="Color" oor:op="fuse"><value>8495553</value></prop></node>
+        <node oor:name="CalcGrid"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="ShadowColor"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="Shadow"><prop oor:name="Color" oor:op="fuse"><value xsi:nil="false" /></prop><prop oor:name="IsVisible" oor:op="fuse"><value>false</value></prop></node>
       </node>
