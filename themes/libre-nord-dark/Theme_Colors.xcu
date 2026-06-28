@@ -5,7 +5,7 @@
       <node oor:name="Libre Nord Dark" oor:op="fuse">
         <node oor:name="AppBackground"><prop oor:name="Color" oor:op="fuse"><value>4410462</value></prop></node>
         <node oor:name="BaseColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
-        <node oor:name="DocColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
+        <node oor:name="DocColor"><prop oor:name="Color" oor:op="fuse"><value>15527924</value></prop></node>
         <node oor:name="FontColor"><prop oor:name="Color" oor:op="fuse"><value>3028032</value></prop></node>
         <node oor:name="DocBoundaries"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="FieldColor"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
@@ -45,7 +45,7 @@
 
         <node oor:name="WriterIdxShadings"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop><prop oor:name="IsVisible" oor:op="fuse"><value>true</value></prop></node>
         <node oor:name="WriterFieldShadings"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop><prop oor:name="IsVisible" oor:op="fuse"><value>true</value></prop></node>
-        <node oor:name="CalcGrid"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
+        <node oor:name="CalcGrid"><prop oor:name="Color" oor:op="fuse"><value>14212841</value></prop></node>
         <node oor:name="ShadowColor"><prop oor:name="Color" oor:op="fuse"><value>5002858</value></prop></node>
         <node oor:name="Shadow"><prop oor:name="Color" oor:op="fuse"><value xsi:nil="false" /></prop><prop oor:name="IsVisible" oor:op="fuse"><value>false</value></prop></node>
       </node>
